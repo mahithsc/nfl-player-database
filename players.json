@@ -1,0 +1,280 @@
+{
+    "bills": {
+        "qb": "Josh Allen",
+        "rb": "Devin Singletary",
+        "wr": "Stefon Diggs",
+        "wrTwo": "Gabriel Davis",
+        "wrThree": "Jamison Crowder",
+        "te": "Dawson Knox"
+    },
+    
+    "dolphins": {
+        "qb": "Tua Tagovailoa",
+        "rb": "Chase Edmonds",
+        "wr": "Tyreek Hill",
+        "wrTwo": "Jaylen Waddle",
+        "wrThree": "DeVante Parker",
+        "te": "Mike Gesicki"
+    },
+    "patriots":{
+        "qb": "Mac Jones",
+        "rb": "Damien Harris",
+        "wr": "Jakobi Meyers",
+        "wrTwo": "Nelson Agholor",
+        "wrThree": "Kendrick Bourne",
+        "te": "Hunter Henry"
+    }, 
+    "jets": {
+        "qb": "Zach Wilson",
+        "rb": "Michael Carter",
+        "wr": "Corey Davis",
+        "wrTwo": "Elijah Moore",
+        "wrThree": "Braxton Berrios",
+        "te": "C.J. Uzomah"
+    },
+    "ravens":{
+        "qb": "Lamar Jackson",
+        "rb": "J.K. Dobbins",
+        "wr": "Marquise Brown",
+        "wrTwo": "Rashod Bateman",
+        "wrThree": "Devin Duvernay",
+        "te": "Mark Andrews"
+    },
+    
+    "bengals": {
+        "qb": "Joe Burrow",
+        "rb": "Joe Mixon",
+        "wr": "Ja'Marr Chase",
+        "wrTwo": "Tee Higgins",
+        "wrThree": "Tyler Boyd",
+        "te": "Hayden Hurst"
+    },
+    
+    "browns": {
+        "qb": "Deshaun Watson",
+        "rb": "Nick Chubb",
+        "wr": "Amari Cooper",
+        "wrTwo": "Donovan Peoples-Jones",
+        "wrThree": "Jakeem Grant Sr.",
+        "te": "David Njoku"
+    },
+    
+    "steelers": {
+        "qb": "Mitch Trubisky",
+        "rb": "Najee Harris",
+        "wr": "Diontae Johnson",
+        "wrTwo": "Chase Claypool",
+        "wrThree": "Anthony Miller",
+        "te": "Pat Freiermuth"
+    },
+    
+    "texans": {
+        "qb": "Davis Mills",
+        "rb": "Rex Burkhead",
+        "wr": "Brandin Cooks",
+        "wrTwo": "Nico Collins",
+        "wrThree": "Chris Conley",
+        "te": "Brevin Jordan"
+    },
+    
+    "colts": {
+        "qb": "Matt Ryan",
+        "rb": "Jonathan Taylor",
+        "wr": "Michael Pittman Jr.",
+        "wrTwo": "Parris Campbell",
+        "wrThree": "Ashton Dulin",
+        "te": "Mo Alie-Cox"
+    },
+    
+    "jaguars": {
+        "qb": "Trevor Lawrence",
+        "rb": "James Robinson",
+        "wr": "Christian Kirk",
+        "wrTwo": "Marvin Jones Jr.",
+        "wrThree": "Zay Jones",
+        "te": "Evan Engram"
+    },
+    
+    "titans": {
+        "qb": "Ryan Tannehill",
+        "rb": "Derrick Henry",
+        "wr": "A.J. Brown",
+        "wrTwo": "Robert Woods",
+        "wrThree": "Nick Westbrook-Ikhine",
+        "te": "Austin Hooper"
+    },
+    
+    "broncos": {
+        "qb": "Russell Wilson",
+        "rb": "Javonte Williams",
+        "wr": "Jerry Jeudy",
+        "wrTwo": "Courtland Sutton",
+        "wrThree": "Tim Patrick",
+        "te": "Albert Okwuegbunam"
+    },
+    
+    "chiefs": {
+        "qb": "Patrick Mahomes",
+        "rb": "Clyde Edwards-Helaire",
+        "wr": "JuJu Smith-Schuster",
+        "wrTwo": "Marquez Valdes-Scantling",
+        "wrThree": "Mecole Hardman",
+        "te": "Travis Kelce"
+    },
+    
+    "chargers": {
+        "qb": "Justin Herbert",
+        "rb": "Austin Ekeler",
+        "wr": "Keenan Allen",
+        "wrTwo": "Mike Williams",
+        "wrThree": "Jalen Guyton",
+        "te": "Gerald Everett"
+    },
+    
+    "cowboys":{
+        "qb": "Dak Prescott",
+        "rb": "Ezekiel Elliott",
+        "wr": "CeeDee Lamb",
+        "wrTwo": "Michael Gallup",
+        "wrThree": "James Washington",
+        "te": "Dalton Schultz"
+    },
+    
+    "giants": {
+        "qb": "Daniel Jones",
+        "rb": "Saquon Barkley",
+        "wr": "Kenny Golladay",
+        "wrTwo": "Sterling Shepard",
+        "wrThree": "Kadarius Toney",
+        "te": "Ricky Seals-Jones"
+    },
+    
+    "eagles": {
+        "qb": "Jalen Hurts",
+        "rb": "Miles Sanders",
+        "wr": "DeVonta Smith",
+        "wrTwo": "Zach Pascal",
+        "wrThree": "Quez Watkins",
+        "te": "Dallas Goedert"
+    },
+    
+    "redskins": {
+        "qb": "Carson Wentz",
+        "rb": "Antonio Gibson",
+        "wr": "Terry McLaurin",
+        "wrTwo": "Curtis Samuel",
+        "wrThree": "Dyami Brown",
+        "te": "Logan Thomas"
+    },
+    
+    "bears":{
+        "qb": "Justin Fields",
+        "rb": "David Montgomery",
+        "wr": "Darnell Mooney",
+        "wrTwo": "Byron Pringle",
+        "wrThree": "Equanimeous St. Brown",
+        "te": "Cole Kmet"
+    },
+    
+    "lions": {
+        "qb": "Jared Goff",
+        "rb": "D'Andre Swift",
+        "wr": "Amon-Ra St. Brown",
+        "wrTwo": "DJ Chark Jr.",
+        "wrThree": "Josh Reynolds",
+        "te": "T.J. Hockenson"
+    },
+    
+    "packers": {
+        "qb": "Aaron Rodgers",
+        "rb": "Aaron Jones",
+        "wr": "Allen Lazard",
+        "wrTwo": "Randall Cobb",
+        "wrThree": "Amari Rodgers",
+        "te": "Robert Tonyan"
+    },
+    
+    "vikings": {
+        "qb": "Kirk Cousins",
+        "rb": "Dalvin Cook",
+        "wr": "Justin Jefferson",
+        "wrTwo": "Adam Thielen",
+        "wrThree": "K.J. Osborn",
+        "te": "Irv Smith Jr."
+    },
+    
+    "falcons": {
+        "qb": "Marcus Mariota",
+        "rb": "Cordarrelle Patterson",
+        "wr": "Olamide Zaccheaus",
+        "wrTwo": "Damiere Byrd",
+        "wrThree": "KhaDarel Hodge",
+        "te": "Kyle Pitts"
+    },
+    
+    "panthers":{
+        "qb": "Sam Darnold",
+        "rb": "Christian McCaffrey",
+        "wr": "DJ Moore",
+        "wrTwo": "Robby Anderson",
+        "wrThree": "Rashard Higgins",
+        "te": "Tommy Tremble"
+    },
+    
+    "saints": {
+        "qb": "Jameis Winston",
+        "rb": "Alvin Kamara",
+        "wr": "Michael Thomas",
+        "wrTwo": "Marquez Callaway",
+        "wrThree": "Tre'Quan Smith",
+        "te": "Adam Trautman"
+    },
+    
+    "buccaneers": {
+        "qb": "Tom Brady",
+        "rb": "Leonard Fournette",
+        "wr": "Chris Godwin",
+        "wrTwo": "Mike Evans",
+        "wrThree": "Russell Gage",
+        "te": "Cameron Brate"
+    },
+    
+    "cardinals": {
+        "qb": "Kyler Murray",
+        "rb": "James Conner",
+        "wr": "DeAndre Hopkins",
+        "wrTwo": "Rondale Moore",
+        "wrThree": "Antoine Wesley",
+        "te": "Zach Ertz"
+    },
+    
+    "49ers": {
+        "qb": "Jimmy Garoppolo",
+        "rb": "Elijah Mitchell",
+        "wr": "Deebo Samuel",
+        "wrTwo": "Brandon Aiyuk",
+        "wrThree": "Jauan Jennings",
+        "te": "George Kittle"
+    },
+    
+    "seahawks": {
+        "qb": "Drew Lock",
+        "rb": "Chris Carson",
+        "wr": "Tyler Lockett",
+        "wrTwo": "DK Metcalf",
+        "wrThree": "Freddie Swain",
+        "te": "Noah Fant"
+    },
+    
+    "rams": {
+        "qb": "Matthew Stafford",
+        "rb": "Cam Akers",
+        "wr": "Cooper Kupp",
+        "wrTwo": "Allen Robinson II",
+        "wrThree": "Van Jefferson",
+        "te": "Tyler Higbee"
+    }
+
+}
+
+
