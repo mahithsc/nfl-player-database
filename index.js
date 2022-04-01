@@ -44,13 +44,26 @@ const teamsID = [
     for (const id of teamsID) {
         const teamname = id.slice(42)
         await page.goto(id);
+
+        //quarterback
         const qb = await page.$eval('#fittPageContainer > div.StickyContainer > div.page-container.cf > div > div > section > div > section > div.nfl-depth-table > div:nth-child(1) > div > div.flex > div > div.Table__Scroller > table > tbody > tr:nth-child(1) > td:nth-child(1) > span > a', el => el.innerText);
+
+        //running back
         const rb = await page.$eval('#fittPageContainer > div.StickyContainer > div.page-container.cf > div > div > section > div > section > div.nfl-depth-table > div:nth-child(1) > div > div.flex > div > div.Table__Scroller > table > tbody > tr:nth-child(2) > td:nth-child(1) > span > a', el => el.innerText);
+
+        //wide reciever one
         const wr = await page.$eval('#fittPageContainer > div.StickyContainer > div.page-container.cf > div > div > section > div > section > div.nfl-depth-table > div:nth-child(1) > div > div.flex > div > div.Table__Scroller > table > tbody > tr:nth-child(3) > td:nth-child(1) > span > a', el => el.innerText);
+
+        //wide reciever two
         const wrTwo = await page.$eval('#fittPageContainer > div.StickyContainer > div.page-container.cf > div > div > section > div > section > div.nfl-depth-table > div:nth-child(1) > div > div.flex > div > div.Table__Scroller > table > tbody > tr:nth-child(4) > td:nth-child(1) > span > a', el => el.innerText);
+
+        //wide reciever three
         const wrThree = await page.$eval('#fittPageContainer > div.StickyContainer > div.page-container.cf > div > div > section > div > section > div.nfl-depth-table > div:nth-child(1) > div > div.flex > div > div.Table__Scroller > table > tbody > tr:nth-child(5) > td:nth-child(1) > span > a', el => el.innerText);
+
+        //tight end
         const te = await page.$eval('#fittPageContainer > div.StickyContainer > div.page-container.cf > div > div > section > div > section > div.nfl-depth-table > div:nth-child(1) > div > div.flex > div > div.Table__Scroller > table > tbody > tr:nth-child(6) > td:nth-child(1) > span > a', el => el.innerText);
 
+        //creates an objec with the team players
         const team = {
             qb: qb,
             rb: rb,
@@ -61,7 +74,5 @@ const teamsID = [
         }
 
         fs.appendFile('players.json', JSON.stringify(team,))
-
-
     }
 })();
