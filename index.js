@@ -6,21 +6,21 @@ const teamsID = [
     'arizona-cardinals', 
     'atlanta-falcons', 
     'carolina-panthers', 
-    'chicago-bears', 
-    'dallas-cowboys', 
+    'chicago-bears',
+    'dal/dallas-cowboys', 
     'detroit-lions', 
     'green-bay-packers',
     'los-angeles-rams',
     'minnesota-vikings',
     'new-orleans-saints',
-    'new-york-giants',
-    'philadelphia-eagles',
+    'nyg/new-york-giants',
+    'phi/philadelphia-eagles',
     'san-francisco-49ers',
     'seattle-seahawks',
     'tampa-bay-buccaneers',
-    'washington-commanders',
+    'wsh/washington-commanders',
     'baltimore-ravens',
-    'buffalo-bills',
+    'buf/buffalo-bills',
     'cincinnati-bengals',
     'cleveland-browns',
     'denver-broncos',
@@ -30,9 +30,9 @@ const teamsID = [
     'kansas-city-chiefs',
     'las-vegas-raiders',
     'los-angeles-chargers',
-    'miami-dolphins',
-    'new-england-patriots',
-    'new-york-jets',
+    'mia/miami-dolphins',
+    'ne/new-england-patriots',
+    'nyj/new-york-jets',
     'pittsburgh-steelers',
     'tennessee-titans',
 ];
@@ -42,10 +42,10 @@ const teamsID = [
 (async () => {
     const browser = await puppeteer.launch({headless: false});
     const page = await browser.newPage();
-    await page.goto('https://www.nfl.com/teams/new-england-patriots/roster');
+    await page.goto('https://www.espn.com/nfl/team/depth/_/name/buf/buffalo-bills');
     await page.screenshot({path: 'roster.png', fullPage: true});
 
-    const players = await page.$$eval('.nfl-o-roster__player-name.nfl-o-cta--link', players => {
+    const players = await page.$$eval('#fittPageContainer > div.StickyContainer > div.page-container.cf > div > div > section > div > section > div.nfl-depth-table > div:nth-child(1) > div > div.flex > div > div.Table__Scroller > table > tbody > tr:nth-child(1) > td:nth-child(1) > span > a', players => {
         return players.map(player => player.textContent)
     })
     await fs.writeFile('names.txt', players.join('\r\n'))
