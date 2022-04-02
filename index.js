@@ -37,6 +37,21 @@ const teamsID = [
 
 ];
 
+const setPlayerPosition = ({number}) => {
+    if(number === 1){
+        return 'QB';
+    }
+    else if(number === 2){
+        return 'RB';
+    }  
+    else if(number === 3 || number === 4 || number === 5){
+        return 'WR';
+    }
+    else if(number == 6){
+        return 'TE';
+    }
+}
+
 (async () => {
     const browser = await puppeteer.launch({headless: false });
     const page = await browser.newPage();
@@ -53,6 +68,8 @@ const teamsID = [
             const playerNumber = await page.$eval('#fittPageContainer > div.StickyContainer > div.ResponsiveWrapper > div > div > div.PlayerHeader__Left.flex.items-center.justify-start.overflow-hidden.bb.brdr-clr-gray-09 > div.PlayerHeader__Main.flex.items-center > div.PlayerHeader__Main_Aside.min-w-0.flex-grow.flex-basis-0 > div > ul > li:nth-child(2)', el => el.innerText);
             const playerHeight = await page.$eval('#fittPageContainer > div.StickyContainer > div.ResponsiveWrapper > div > div > div.PlayerHeader__Left.flex.items-center.justify-start.overflow-hidden.bb.brdr-clr-gray-09 > div.PlayerHeader__Bio.pv5 > div > ul > li:nth-child(1) > div.fw-medium.clr-black > div', el => el.innerText);
             const playerTeam = await page.$eval('#fittPageContainer > div.StickyContainer > div.ResponsiveWrapper > div > div > div.PlayerHeader__Left.flex.items-center.justify-start.overflow-hidden.bb.brdr-clr-gray-09 > div.PlayerHeader__Main.flex.items-center > div.PlayerHeader__Main_Aside.min-w-0.flex-grow.flex-basis-0 > div > ul > li.truncate.min-w-0 > a', el => el.innerText);
+            const playerPhotolink = await page.$eval('#fittPageContainer > div.StickyContainer > div.ResponsiveWrapper > div > div > div.PlayerHeader__Left.flex.items-center.justify-start.overflow-hidden.bb.brdr-clr-gray-09 > div > div.PlayerHeader__Image_Container.overflow-hidden.bg-clr-gray-09 > div.PlayerHeader__Image > figure.Image.aspect-ratio--parent.PlayerHeader__HeadShot > div.Image__Wrapper.Image__Wrapper--relative > img', img => (img.getAttribute('src')));
+            const playerPosition = setPlayerPosition({number: i});
             await page.goto(id);
             // await page.waitForNavigation();
 
@@ -62,6 +79,8 @@ const teamsID = [
                 number: playerNumber,
                 height: playerHeight,
                 team: playerTeam,
+                playerPosition : playerPosition,
+                photo: playerPhotolink
             }
 
             fs.appendFile('players.json', JSON.stringify(player) + ',');
