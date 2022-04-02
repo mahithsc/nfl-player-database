@@ -38,41 +38,35 @@ const teamsID = [
 ];
 
 (async () => {
-    const browser = await puppeteer.launch({});
+    const browser = await puppeteer.launch({headless: false });
     const page = await browser.newPage();
 
     for (const id of teamsID) {
         const teamname = id.slice(42)
         await page.goto(id);
 
-        //quarterback
-        const qb = await page.$eval('#fittPageContainer > div.StickyContainer > div.page-container.cf > div > div > section > div > section > div.nfl-depth-table > div:nth-child(1) > div > div.flex > div > div.Table__Scroller > table > tbody > tr:nth-child(1) > td:nth-child(1) > span > a', el => el.innerText);
+        for (let i = 1; i <= 6; i++) {
+            await page.waitForNavigation();
+            const playerName = await page.$eval(`#fittPageContainer > div.StickyContainer > div.page-container.cf > div > div > section > div > section > div.nfl-depth-table > div:nth-child(1) > div > div.flex > div > div.Table__Scroller > table > tbody > tr:nth-child(${i}) > td:nth-child(1) > span > a`, el => el.innerText);
+            await page.click(`#fittPageContainer > div.StickyContainer > div.page-container.cf > div > div > section > div > section > div.nfl-depth-table > div:nth-child(1) > div > div.flex > div > div.Table__Scroller > table > tbody > tr:nth-child(${i}) > td:nth-child(1) > span > a`);
+            await page.waitForNavigation();
+            const playerAge = await page.$eval('#fittPageContainer > div.StickyContainer > div.ResponsiveWrapper > div > div > div.PlayerHeader__Left.flex.items-center.justify-start.overflow-hidden.bb.brdr-clr-gray-09 > div.PlayerHeader__Bio.pv5 > div > ul > li:nth-child(2) > div.fw-medium.clr-black > div', el => el.innerText);
+            const playerNumber = await page.$eval('#fittPageContainer > div.StickyContainer > div.ResponsiveWrapper > div > div > div.PlayerHeader__Left.flex.items-center.justify-start.overflow-hidden.bb.brdr-clr-gray-09 > div.PlayerHeader__Main.flex.items-center > div.PlayerHeader__Main_Aside.min-w-0.flex-grow.flex-basis-0 > div > ul > li:nth-child(2)', el => el.innerText);
+            const playerHeight = await page.$eval('#fittPageContainer > div.StickyContainer > div.ResponsiveWrapper > div > div > div.PlayerHeader__Left.flex.items-center.justify-start.overflow-hidden.bb.brdr-clr-gray-09 > div.PlayerHeader__Bio.pv5 > div > ul > li:nth-child(1) > div.fw-medium.clr-black > div', el => el.innerText);
+            const playerTeam = await page.$eval('#fittPageContainer > div.StickyContainer > div.ResponsiveWrapper > div > div > div.PlayerHeader__Left.flex.items-center.justify-start.overflow-hidden.bb.brdr-clr-gray-09 > div.PlayerHeader__Main.flex.items-center > div.PlayerHeader__Main_Aside.min-w-0.flex-grow.flex-basis-0 > div > ul > li.truncate.min-w-0 > a', el => el.innerText);
+            await page.goto(id);
 
-        //running back
-        const rb = await page.$eval('#fittPageContainer > div.StickyContainer > div.page-container.cf > div > div > section > div > section > div.nfl-depth-table > div:nth-child(1) > div > div.flex > div > div.Table__Scroller > table > tbody > tr:nth-child(2) > td:nth-child(1) > span > a', el => el.innerText);
+            const player = {
+                name: playerName,
+                age: playerAge,
+                number: playerNumber,
+                height: playerHeight,
+                team: playerTeam,
+            }
 
-        //wide reciever one
-        const wr = await page.$eval('#fittPageContainer > div.StickyContainer > div.page-container.cf > div > div > section > div > section > div.nfl-depth-table > div:nth-child(1) > div > div.flex > div > div.Table__Scroller > table > tbody > tr:nth-child(3) > td:nth-child(1) > span > a', el => el.innerText);
-
-        //wide reciever two
-        const wrTwo = await page.$eval('#fittPageContainer > div.StickyContainer > div.page-container.cf > div > div > section > div > section > div.nfl-depth-table > div:nth-child(1) > div > div.flex > div > div.Table__Scroller > table > tbody > tr:nth-child(4) > td:nth-child(1) > span > a', el => el.innerText);
-
-        //wide reciever three
-        const wrThree = await page.$eval('#fittPageContainer > div.StickyContainer > div.page-container.cf > div > div > section > div > section > div.nfl-depth-table > div:nth-child(1) > div > div.flex > div > div.Table__Scroller > table > tbody > tr:nth-child(5) > td:nth-child(1) > span > a', el => el.innerText);
-
-        //tight end
-        const te = await page.$eval('#fittPageContainer > div.StickyContainer > div.page-container.cf > div > div > section > div > section > div.nfl-depth-table > div:nth-child(1) > div > div.flex > div > div.Table__Scroller > table > tbody > tr:nth-child(6) > td:nth-child(1) > span > a', el => el.innerText);
-
-        //creates an objec with the team players
-        const team = {
-            qb: qb,
-            rb: rb,
-            wr: wr,
-            wrTwo: wrTwo,
-            wrThree: wrThree,
-            te: te
+            fs.appendFile('players.json', JSON.stringify(player) + ',');
         }
-
-        fs.appendFile('players.json', JSON.stringify(team,))
     }
 })();
+
+// #fittPageContainer > div.StickyContainer > div.page-container.cf > div > div > section > div > section > div.nfl-depth-table > div:nth-child(1) > div > div.flex > div > div.Table__Scroller > table > tbody > tr:nth-child(3) > td:nth-child(1) > span > a
