@@ -1,0 +1,20 @@
+{
+    "players": [
+        {
+            "name": "Tom Brady",
+            "division": "AFC East",
+            "position": "QB",
+            "height": "6-1",
+            "age": "32",
+            "number": "12"
+        },
+        {
+            "name": "Tom Brady",
+            "division": "AFC East",
+            "position": "QB",
+            "height": "6-1",
+            "age": "32",
+            "number": "12" 
+        }
+    ]
+}
