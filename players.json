@@ -1,0 +1,1278 @@
+{
+    "players": [
+        {
+            "name": "Josh Allen",
+            "age": "5/21/1996 (25)",
+            "number": "#17",
+            "height": "6' 5\", 237 lbs",
+            "team": "Bills"
+        },
+        {
+            "name": "Devin Singletary",
+            "age": "9/3/1997 (24)",
+            "number": "#26",
+            "height": "5' 7\", 203 lbs",
+            "team": "Bills"
+        },
+        {
+            "name": "Stefon Diggs",
+            "age": "11/29/1993 (28)",
+            "number": "#14",
+            "height": "6' 0\", 191 lbs",
+            "team": "Bills"
+        },
+        {
+            "name": "Gabriel Davis",
+            "age": "4/1/1999 (23)",
+            "number": "#13",
+            "height": "6' 2\", 210 lbs",
+            "team": "Bills"
+        },
+        {
+            "name": "Jamison Crowder",
+            "age": "6/17/1993 (28)",
+            "number": "WR",
+            "height": "5' 9\", 177 lbs",
+            "team": "Bills"
+        },
+        {
+            "name": "Dawson Knox",
+            "age": "11/14/1996 (25)",
+            "number": "#88",
+            "height": "6' 4\", 254 lbs",
+            "team": "Bills"
+        },
+        {
+            "name": "Tua Tagovailoa",
+            "age": "3/2/1998 (24)",
+            "number": "#1",
+            "height": "6' 1\", 217 lbs",
+            "team": "Dolphins"
+        },
+        {
+            "name": "Chase Edmonds",
+            "age": "4/13/1996 (25)",
+            "number": "RB",
+            "height": "5' 9\", 210 lbs",
+            "team": "Dolphins"
+        },
+        {
+            "name": "Tyreek Hill",
+            "age": "3/1/1994 (28)",
+            "number": "#10",
+            "height": "5' 10\", 185 lbs",
+            "team": "Dolphins"
+        },
+        {
+            "name": "Jaylen Waddle",
+            "age": "11/25/1998 (23)",
+            "number": "#17",
+            "height": "5' 10\", 182 lbs",
+            "team": "Dolphins"
+        },
+        {
+            "name": "DeVante Parker",
+            "age": "1/20/1993 (29)",
+            "number": "#11",
+            "height": "6' 3\", 219 lbs",
+            "team": "Dolphins"
+        },
+        {
+            "name": "Mike Gesicki",
+            "age": "10/3/1995 (26)",
+            "number": "#88",
+            "height": "6' 6\", 247 lbs",
+            "team": "Dolphins"
+        },
+        {
+            "name": "Mac Jones",
+            "age": "9/5/1998 (23)",
+            "number": "#10",
+            "height": "6' 3\", 217 lbs",
+            "team": "Patriots"
+        },
+        {
+            "name": "Damien Harris",
+            "age": "2/11/1997 (25)",
+            "number": "#37",
+            "height": "5' 11\", 213 lbs",
+            "team": "Patriots"
+        },
+        {
+            "name": "Jakobi Meyers",
+            "age": "11/9/1996 (25)",
+            "number": "#16",
+            "height": "6' 2\", 200 lbs",
+            "team": "Patriots"
+        },
+        {
+            "name": "Nelson Agholor",
+            "age": "5/24/1993 (28)",
+            "number": "#15",
+            "height": "6' 0\", 198 lbs",
+            "team": "Patriots"
+        },
+        {
+            "name": "Kendrick Bourne",
+            "age": "8/4/1995 (26)",
+            "number": "#84",
+            "height": "6' 1\", 190 lbs",
+            "team": "Patriots"
+        },
+        {
+            "name": "Hunter Henry",
+            "age": "12/7/1994 (27)",
+            "number": "#85",
+            "height": "6' 5\", 250 lbs",
+            "team": "Patriots"
+        },
+        {
+            "name": "Zach Wilson",
+            "age": "8/3/1999 (22)",
+            "number": "#2",
+            "height": "6' 2\", 214 lbs",
+            "team": "Jets"
+        },
+        {
+            "name": "Michael Carter",
+            "age": "5/7/1999 (22)",
+            "number": "#32",
+            "height": "5' 8\", 201 lbs",
+            "team": "Jets"
+        },
+        {
+            "name": "Corey Davis",
+            "age": "1/11/1995 (27)",
+            "number": "#84",
+            "height": "6' 3\", 209 lbs",
+            "team": "Jets"
+        },
+        {
+            "name": "Elijah Moore",
+            "age": "3/27/2000 (22)",
+            "number": "#8",
+            "height": "5' 10\", 178 lbs",
+            "team": "Jets"
+        },
+        {
+            "name": "Braxton Berrios",
+            "age": "10/6/1995 (26)",
+            "number": "#10",
+            "height": "5' 9\", 190 lbs",
+            "team": "Jets"
+        },
+        {
+            "name": "C.J. Uzomah",
+            "age": "1/14/1993 (29)",
+            "number": "#87",
+            "height": "6' 6\", 260 lbs",
+            "team": "Jets"
+        },
+        {
+            "name": "Lamar Jackson",
+            "age": "1/7/1997 (25)",
+            "number": "#8",
+            "height": "6' 2\", 212 lbs",
+            "team": "Ravens"
+        },
+        {
+            "name": "J.K. Dobbins",
+            "age": "12/17/1998 (23)",
+            "number": "#27",
+            "height": "5' 10\", 212 lbs",
+            "team": "Ravens"
+        },
+        {
+            "name": "Marquise Brown",
+            "age": "6/4/1997 (24)",
+            "number": "#5",
+            "height": "5' 9\", 180 lbs",
+            "team": "Ravens"
+        },
+        {
+            "name": "Rashod Bateman",
+            "age": "11/29/1999 (22)",
+            "number": "#12",
+            "height": "6' 1\", 193 lbs",
+            "team": "Ravens"
+        },
+        {
+            "name": "Devin Duvernay",
+            "age": "9/12/1997 (24)",
+            "number": "#13",
+            "height": "5' 11\", 210 lbs",
+            "team": "Ravens"
+        },
+        {
+            "name": "Mark Andrews",
+            "age": "9/6/1995 (26)",
+            "number": "#89",
+            "height": "6' 5\", 256 lbs",
+            "team": "Ravens"
+        },
+        {
+            "name": "Joe Burrow",
+            "age": "12/10/1996 (25)",
+            "number": "#9",
+            "height": "6' 4\", 221 lbs",
+            "team": "Bengals"
+        },
+        {
+            "name": "Joe Mixon",
+            "age": "7/24/1996 (25)",
+            "number": "#28",
+            "height": "6' 1\", 220 lbs",
+            "team": "Bengals"
+        },
+        {
+            "name": "Ja'Marr Chase",
+            "age": "3/1/2000 (22)",
+            "number": "#1",
+            "height": "6' 0\", 201 lbs",
+            "team": "Bengals"
+        },
+        {
+            "name": "Tee Higgins",
+            "age": "1/18/1999 (23)",
+            "number": "#85",
+            "height": "6' 4\", 215 lbs",
+            "team": "Bengals"
+        },
+        {
+            "name": "Tyler Boyd",
+            "age": "11/15/1993 (28)",
+            "number": "#83",
+            "height": "6' 2\", 203 lbs",
+            "team": "Bengals"
+        },
+        {
+            "name": "Hayden Hurst",
+            "age": "8/24/1993 (28)",
+            "number": "#81",
+            "height": "6' 4\", 260 lbs",
+            "team": "Bengals"
+        },
+        {
+            "name": "Deshaun Watson",
+            "age": "9/14/1995 (26)",
+            "number": "QB",
+            "height": "6' 2\", 215 lbs",
+            "team": "Browns"
+        },
+        {
+            "name": "Nick Chubb",
+            "age": "12/27/1995 (26)",
+            "number": "#24",
+            "height": "5' 11\", 227 lbs",
+            "team": "Browns"
+        },
+        {
+            "name": "Amari Cooper",
+            "age": "6/18/1994 (27)",
+            "number": "#19",
+            "height": "6' 1\", 210 lbs",
+            "team": "Cowboys"
+        },
+        {
+            "name": "Donovan Peoples-Jones",
+            "age": "2/19/1999 (23)",
+            "number": "#11",
+            "height": "6' 2\", 204 lbs",
+            "team": "Browns"
+        },
+        {
+            "name": "Jakeem Grant Sr.",
+            "age": "10/30/1992 (29)",
+            "number": "WR",
+            "height": "5' 7\", 172 lbs",
+            "team": "Browns"
+        },
+        {
+            "name": "David Njoku",
+            "age": "7/10/1996 (25)",
+            "number": "#85",
+            "height": "6' 4\", 246 lbs",
+            "team": "Browns"
+        },
+        {
+            "name": "Mitch Trubisky",
+            "age": "8/20/1994 (27)",
+            "number": "QB",
+            "height": "6' 2\", 220 lbs",
+            "team": "Steelers"
+        },
+        {
+            "name": "Najee Harris",
+            "age": "3/9/1998 (24)",
+            "number": "#22",
+            "height": "6' 1\", 232 lbs",
+            "team": "Steelers"
+        },
+        {
+            "name": "Diontae Johnson",
+            "age": "7/5/1996 (25)",
+            "number": "#18",
+            "height": "5' 10\", 183 lbs",
+            "team": "Steelers"
+        },
+        {
+            "name": "Chase Claypool",
+            "age": "7/7/1998 (23)",
+            "number": "#11",
+            "height": "6' 4\", 238 lbs",
+            "team": "Steelers"
+        },
+        {
+            "name": "Anthony Miller",
+            "age": "10/9/1994 (27)",
+            "number": "#17",
+            "height": "5' 11\", 199 lbs",
+            "team": "Steelers"
+        },
+        {
+            "name": "Pat Freiermuth",
+            "age": "10/25/1998 (23)",
+            "number": "#88",
+            "height": "6' 5\", 258 lbs",
+            "team": "Steelers"
+        },
+        {
+            "name": "Jonathan Greenard",
+            "age": "5/25/1997 (24)",
+            "number": "#52",
+            "height": "6' 3\", 263 lbs",
+            "team": "Texans"
+        },
+        {
+            "name": "Maliek Collins",
+            "age": "4/8/1995 (26)",
+            "number": "#97",
+            "height": "6' 2\", 310 lbs",
+            "team": "Texans"
+        },
+        {
+            "name": "Neville Hewitt",
+            "age": "4/6/1993 (28)",
+            "number": "#43",
+            "height": "6' 2\", 234 lbs",
+            "team": "Texans"
+        },
+        {
+            "name": "Desmond King II",
+            "age": "12/14/1994 (27)",
+            "number": "#25",
+            "height": "5' 10\", 200 lbs",
+            "team": "Texans"
+        },
+        {
+            "name": "Terrence Brooks",
+            "age": "3/2/1992 (30)",
+            "number": "#8",
+            "height": "5' 11\", 205 lbs",
+            "team": "Texans"
+        },
+        {
+            "name": "Matt Ryan",
+            "age": "5/17/1985 (36)",
+            "number": "#2",
+            "height": "6' 4\", 217 lbs",
+            "team": "Colts"
+        },
+        {
+            "name": "Jonathan Taylor",
+            "age": "1/19/1999 (23)",
+            "number": "#28",
+            "height": "5' 10\", 226 lbs",
+            "team": "Colts"
+        },
+        {
+            "name": "Michael Pittman Jr.",
+            "age": "10/5/1997 (24)",
+            "number": "#11",
+            "height": "6' 4\", 223 lbs",
+            "team": "Colts"
+        },
+        {
+            "name": "Parris Campbell",
+            "age": "7/16/1997 (24)",
+            "number": "#1",
+            "height": "6' 0\", 208 lbs",
+            "team": "Colts"
+        },
+        {
+            "name": "Ashton Dulin",
+            "age": "5/15/1997 (24)",
+            "number": "#16",
+            "height": "6' 1\", 215 lbs",
+            "team": "Colts"
+        },
+        {
+            "name": "Mo Alie-Cox",
+            "age": "9/19/1993 (28)",
+            "number": "#81",
+            "height": "6' 5\", 267 lbs",
+            "team": "Colts"
+        },
+        {
+            "name": "Trevor Lawrence",
+            "age": "10/6/1999 (22)",
+            "number": "#16",
+            "height": "6' 6\", 213 lbs",
+            "team": "Jaguars"
+        },
+        {
+            "name": "James Robinson",
+            "age": "8/9/1998 (23)",
+            "number": "#25",
+            "height": "5' 9\", 219 lbs",
+            "team": "Jaguars"
+        },
+        {
+            "name": "Christian Kirk",
+            "age": "11/18/1996 (25)",
+            "number": "#13",
+            "height": "5' 11\", 200 lbs",
+            "team": "Jaguars"
+        },
+        {
+            "name": "Marvin Jones Jr.",
+            "age": "3/12/1990 (32)",
+            "number": "#11",
+            "height": "6' 2\", 199 lbs",
+            "team": "Jaguars"
+        },
+        {
+            "name": "Zay Jones",
+            "age": "3/30/1995 (27)",
+            "number": "#7",
+            "height": "6' 2\", 200 lbs",
+            "team": "Jaguars"
+        },
+        {
+            "name": "Evan Engram",
+            "age": "9/2/1994 (27)",
+            "number": "#88",
+            "height": "6' 3\", 240 lbs",
+            "team": "Jaguars"
+        },
+        {
+            "name": "Ryan Tannehill",
+            "age": "7/27/1988 (33)",
+            "number": "#17",
+            "height": "6' 4\", 217 lbs",
+            "team": "Titans"
+        },
+        {
+            "name": "Derrick Henry",
+            "age": "1/4/1994 (28)",
+            "number": "#22",
+            "height": "6' 3\", 247 lbs",
+            "team": "Titans"
+        },
+        {
+            "name": "A.J. Brown",
+            "age": "6/30/1997 (24)",
+            "number": "#11",
+            "height": "6' 1\", 226 lbs",
+            "team": "Titans"
+        },
+        {
+            "name": "Robert Woods",
+            "age": "4/10/1992 (29)",
+            "number": "#2",
+            "height": "6' 0\", 195 lbs",
+            "team": "Titans"
+        },
+        {
+            "name": "Nick Westbrook-Ikhine",
+            "age": "3/21/1997 (25)",
+            "number": "#15",
+            "height": "6' 2\", 211 lbs",
+            "team": "Titans"
+        },
+        {
+            "name": "Austin Hooper",
+            "age": "11/4/1994 (27)",
+            "number": "#81",
+            "height": "6' 4\", 255 lbs",
+            "team": "Titans"
+        },
+        {
+            "name": "Russell Wilson",
+            "age": "11/29/1988 (33)",
+            "number": "QB",
+            "height": "5' 11\", 215 lbs",
+            "team": "Broncos"
+        },
+        {
+            "name": "Javonte Williams",
+            "age": "4/25/2000 (21)",
+            "number": "#33",
+            "height": "5' 10\", 220 lbs",
+            "team": "Broncos"
+        },
+        {
+            "name": "Jerry Jeudy",
+            "age": "4/24/1999 (22)",
+            "number": "#10",
+            "height": "6' 1\", 193 lbs",
+            "team": "Broncos"
+        },
+        {
+            "name": "Courtland Sutton",
+            "age": "10/10/1995 (26)",
+            "number": "#14",
+            "height": "6' 4\", 216 lbs",
+            "team": "Broncos"
+        },
+        {
+            "name": "Tim Patrick",
+            "age": "11/23/1993 (28)",
+            "number": "#81",
+            "height": "6' 4\", 212 lbs",
+            "team": "Broncos"
+        },
+        {
+            "name": "Albert Okwuegbunam",
+            "age": "4/25/1998 (23)",
+            "number": "#85",
+            "height": "6' 5\", 258 lbs",
+            "team": "Broncos"
+        },
+        {
+            "name": "Patrick Mahomes",
+            "age": "9/17/1995 (26)",
+            "number": "#15",
+            "height": "6' 3\", 227 lbs",
+            "team": "Chiefs"
+        },
+        {
+            "name": "Clyde Edwards-Helaire",
+            "age": "4/11/1999 (22)",
+            "number": "#25",
+            "height": "5' 7\", 205 lbs",
+            "team": "Chiefs"
+        },
+        {
+            "name": "JuJu Smith-Schuster",
+            "age": "11/22/1996 (25)",
+            "number": "#19",
+            "height": "6' 1\", 215 lbs",
+            "team": "Chiefs"
+        },
+        {
+            "name": "Marquez Valdes-Scantling",
+            "age": "10/10/1994 (27)",
+            "number": "#83",
+            "height": "6' 4\", 206 lbs",
+            "team": "Chiefs"
+        },
+        {
+            "name": "Mecole Hardman",
+            "age": "3/12/1998 (24)",
+            "number": "#17",
+            "height": "5' 10\", 180 lbs",
+            "team": "Chiefs"
+        },
+        {
+            "name": "Travis Kelce",
+            "age": "10/5/1989 (32)",
+            "number": "#87",
+            "height": "6' 5\", 256 lbs",
+            "team": "Chiefs"
+        },
+        {
+            "name": "Justin Herbert",
+            "age": "3/10/1998 (24)",
+            "number": "#10",
+            "height": "6' 6\", 237 lbs",
+            "team": "Chargers"
+        },
+        {
+            "name": "Austin Ekeler",
+            "age": "5/17/1995 (26)",
+            "number": "#30",
+            "height": "5' 10\", 200 lbs",
+            "team": "Chargers"
+        },
+        {
+            "name": "Keenan Allen",
+            "age": "4/27/1992 (29)",
+            "number": "#13",
+            "height": "6' 2\", 211 lbs",
+            "team": "Chargers"
+        },
+        {
+            "name": "Mike Williams",
+            "age": "10/4/1994 (27)",
+            "number": "#81",
+            "height": "6' 4\", 218 lbs",
+            "team": "Chargers"
+        },
+        {
+            "name": "Jalen Guyton",
+            "age": "6/7/1997 (24)",
+            "number": "#15",
+            "height": "6' 1\", 212 lbs",
+            "team": "Chargers"
+        },
+        {
+            "name": "Gerald Everett",
+            "age": "6/25/1994 (27)",
+            "number": "#0",
+            "height": "6' 3\", 240 lbs",
+            "team": "Chargers"
+        },
+        {
+            "name": "Dak Prescott",
+            "age": "7/29/1993 (28)",
+            "number": "#4",
+            "height": "6' 2\", 238 lbs",
+            "team": "Cowboys"
+        },
+        {
+            "name": "Ezekiel Elliott",
+            "age": "7/22/1995 (26)",
+            "number": "#21",
+            "height": "6' 0\", 228 lbs",
+            "team": "Cowboys"
+        },
+        {
+            "name": "CeeDee Lamb",
+            "age": "4/8/1999 (22)",
+            "number": "#88",
+            "height": "6' 2\", 189 lbs",
+            "team": "Cowboys"
+        },
+        {
+            "name": "Michael Gallup",
+            "age": "3/4/1996 (26)",
+            "number": "#13",
+            "height": "6' 1\", 198 lbs",
+            "team": "Cowboys"
+        },
+        {
+            "name": "James Washington",
+            "age": "4/2/1996 (25)",
+            "number": "#13",
+            "height": "5' 11\", 213 lbs",
+            "team": "Cowboys"
+        },
+        {
+            "name": "Dalton Schultz",
+            "age": "7/11/1996 (25)",
+            "number": "#86",
+            "height": "6' 5\", 244 lbs",
+            "team": "Cowboys"
+        },
+        {
+            "name": "Daniel Jones",
+            "age": "5/27/1997 (24)",
+            "number": "#8",
+            "height": "6' 5\", 221 lbs",
+            "team": "Giants"
+        },
+        {
+            "name": "Saquon Barkley",
+            "age": "2/9/1997 (25)",
+            "number": "#26",
+            "height": "5' 11\", 233 lbs",
+            "team": "Giants"
+        },
+        {
+            "name": "Kenny Golladay",
+            "age": "11/3/1993 (28)",
+            "number": "#19",
+            "height": "6' 4\", 213 lbs",
+            "team": "Giants"
+        },
+        {
+            "name": "Sterling Shepard",
+            "age": "2/10/1993 (29)",
+            "number": "#3",
+            "height": "5' 10\", 201 lbs",
+            "team": "Giants"
+        },
+        {
+            "name": "Kadarius Toney",
+            "age": "1/27/1999 (23)",
+            "number": "#89",
+            "height": "6' 0\", 193 lbs",
+            "team": "Giants"
+        },
+        {
+            "name": "Ricky Seals-Jones",
+            "age": "3/15/1995 (27)",
+            "number": "#83",
+            "height": "6' 5\", 243 lbs",
+            "team": "Giants"
+        },
+        {
+            "name": "Jalen Hurts",
+            "age": "8/7/1998 (23)",
+            "number": "#1",
+            "height": "6' 1\", 223 lbs",
+            "team": "Eagles"
+        },
+        {
+            "name": "Miles Sanders",
+            "age": "5/1/1997 (24)",
+            "number": "#26",
+            "height": "5' 11\", 211 lbs",
+            "team": "Eagles"
+        },
+        {
+            "name": "DeVonta Smith",
+            "age": "11/14/1998 (23)",
+            "number": "#6",
+            "height": "6' 0\", 170 lbs",
+            "team": "Eagles"
+        },
+        {
+            "name": "Zach Pascal",
+            "age": "12/18/1994 (27)",
+            "number": "WR",
+            "height": "6' 2\", 214 lbs",
+            "team": "Eagles"
+        },
+        {
+            "name": "Quez Watkins",
+            "age": "6/9/1998 (23)",
+            "number": "#16",
+            "height": "6' 0\", 193 lbs",
+            "team": "Eagles"
+        },
+        {
+            "name": "Dallas Goedert",
+            "age": "1/3/1995 (27)",
+            "number": "#88",
+            "height": "6' 5\", 256 lbs",
+            "team": "Eagles"
+        },
+        {
+            "name": "Carson Wentz",
+            "age": "12/30/1992 (29)",
+            "number": "#2",
+            "height": "6' 5\", 237 lbs",
+            "team": "Commanders"
+        },
+        {
+            "name": "Antonio Gibson",
+            "age": "6/23/1998 (23)",
+            "number": "#24",
+            "height": "6' 2\", 220 lbs",
+            "team": "Commanders"
+        },
+        {
+            "name": "Terry McLaurin",
+            "age": "9/15/1995 (26)",
+            "number": "#17",
+            "height": "6' 0\", 210 lbs",
+            "team": "Commanders"
+        },
+        {
+            "name": "Curtis Samuel",
+            "age": "8/11/1996 (25)",
+            "number": "#10",
+            "height": "5' 11\", 195 lbs",
+            "team": "Commanders"
+        },
+        {
+            "name": "Dyami Brown",
+            "age": "11/1/1999 (22)",
+            "number": "#2",
+            "height": "6' 0\", 195 lbs",
+            "team": "Commanders"
+        },
+        {
+            "name": "Logan Thomas",
+            "age": "7/1/1991 (30)",
+            "number": "#82",
+            "height": "6' 6\", 250 lbs",
+            "team": "Commanders"
+        },
+        {
+            "name": "Justin Fields",
+            "age": "3/5/1999 (23)",
+            "number": "#1",
+            "height": "6' 3\", 228 lbs",
+            "team": "Bears"
+        },
+        {
+            "name": "David Montgomery",
+            "age": "6/7/1997 (24)",
+            "number": "#32",
+            "height": "5' 11\", 224 lbs",
+            "team": "Bears"
+        },
+        {
+            "name": "Darnell Mooney",
+            "age": "10/29/1997 (24)",
+            "number": "#11",
+            "height": "5' 11\", 173 lbs",
+            "team": "Bears"
+        },
+        {
+            "name": "Byron Pringle",
+            "age": "11/17/1993 (28)",
+            "number": "#13",
+            "height": "6' 1\", 201 lbs",
+            "team": "Bears"
+        },
+        {
+            "name": "Equanimeous St. Brown",
+            "age": "9/30/1996 (25)",
+            "number": "#19",
+            "height": "6' 5\", 214 lbs",
+            "team": "Bears"
+        },
+        {
+            "name": "Cole Kmet",
+            "age": "3/10/1999 (23)",
+            "number": "#85",
+            "height": "6' 6\", 260 lbs",
+            "team": "Bears"
+        },
+        {
+            "name": "Jared Goff",
+            "age": "10/14/1994 (27)",
+            "number": "#16",
+            "height": "6' 4\", 217 lbs",
+            "team": "Lions"
+        },
+        {
+            "name": "D'Andre Swift",
+            "age": "1/14/1999 (23)",
+            "number": "#32",
+            "height": "5' 9\", 211 lbs",
+            "team": "Lions"
+        },
+        {
+            "name": "Amon-Ra St. Brown",
+            "age": "10/24/1999 (22)",
+            "number": "#14",
+            "height": "6' 0\", 197 lbs",
+            "team": "Lions"
+        },
+        {
+            "name": "DJ Chark Jr.",
+            "age": "9/23/1996 (25)",
+            "number": "#17",
+            "height": "6' 4\", 198 lbs",
+            "team": "Lions"
+        },
+        {
+            "name": "Josh Reynolds",
+            "age": "2/16/1995 (27)",
+            "number": "#8",
+            "height": "6' 3\", 192 lbs",
+            "team": "Lions"
+        },
+        {
+            "name": "T.J. Hockenson",
+            "age": "7/3/1997 (24)",
+            "number": "#88",
+            "height": "6' 5\", 248 lbs",
+            "team": "Lions"
+        },
+        {
+            "name": "Aaron Rodgers",
+            "age": "12/2/1983 (38)",
+            "number": "#12",
+            "height": "6' 2\", 225 lbs",
+            "team": "Packers"
+        },
+        {
+            "name": "Aaron Jones",
+            "age": "12/2/1994 (27)",
+            "number": "#33",
+            "height": "5' 9\", 208 lbs",
+            "team": "Packers"
+        },
+        {
+            "name": "Allen Lazard",
+            "age": "12/11/1995 (26)",
+            "number": "#13",
+            "height": "6' 5\", 227 lbs",
+            "team": "Packers"
+        },
+        {
+            "name": "Randall Cobb",
+            "age": "8/22/1990 (31)",
+            "number": "#18",
+            "height": "5' 10\", 195 lbs",
+            "team": "Packers"
+        },
+        {
+            "name": "Amari Rodgers",
+            "age": "9/23/1999 (22)",
+            "number": "#8",
+            "height": "5' 9\", 212 lbs",
+            "team": "Packers"
+        },
+        {
+            "name": "Robert Tonyan",
+            "age": "4/30/1994 (27)",
+            "number": "#85",
+            "height": "6' 5\", 237 lbs",
+            "team": "Packers"
+        },
+        {
+            "name": "Kirk Cousins",
+            "age": "8/19/1988 (33)",
+            "number": "#8",
+            "height": "6' 3\", 205 lbs",
+            "team": "Vikings"
+        },
+        {
+            "name": "Dalvin Cook",
+            "age": "8/10/1995 (26)",
+            "number": "#33",
+            "height": "5' 10\", 210 lbs",
+            "team": "Vikings"
+        },
+        {
+            "name": "Justin Jefferson",
+            "age": "1/16/1999 (23)",
+            "number": "#18",
+            "height": "6' 1\", 195 lbs",
+            "team": "Vikings"
+        },
+        {
+            "name": "Adam Thielen",
+            "age": "8/22/1990 (31)",
+            "number": "#19",
+            "height": "6' 2\", 200 lbs",
+            "team": "Vikings"
+        },
+        {
+            "name": "K.J. Osborn",
+            "age": "6/10/1997 (24)",
+            "number": "#17",
+            "height": "5' 11\", 203 lbs",
+            "team": "Vikings"
+        },
+        {
+            "name": "Irv Smith Jr.",
+            "age": "8/9/1998 (23)",
+            "number": "#84",
+            "height": "6' 2\", 240 lbs",
+            "team": "Vikings"
+        },
+        {
+            "name": "Marcus Mariota",
+            "age": "10/30/1993 (28)",
+            "number": "QB",
+            "height": "6' 4\", 222 lbs",
+            "team": "Falcons"
+        },
+        {
+            "name": "Cordarrelle Patterson",
+            "age": "3/17/1991 (31)",
+            "number": "#84",
+            "height": "6' 2\", 220 lbs",
+            "team": "Falcons"
+        },
+        {
+            "name": "Olamide Zaccheaus",
+            "age": "7/23/1997 (24)",
+            "number": "#17",
+            "height": "5' 8\", 193 lbs",
+            "team": "Falcons"
+        },
+        {
+            "name": "Sam Darnold",
+            "age": "6/5/1997 (24)",
+            "number": "#14",
+            "height": "6' 3\", 225 lbs",
+            "team": "Panthers"
+        },
+        {
+            "name": "Christian McCaffrey",
+            "age": "6/7/1996 (25)",
+            "number": "#22",
+            "height": "5' 11\", 205 lbs",
+            "team": "Panthers"
+        },
+        {
+            "name": "DJ Moore",
+            "age": "4/14/1997 (24)",
+            "number": "#2",
+            "height": "6' 0\", 210 lbs",
+            "team": "Panthers"
+        },
+        {
+            "name": "Robby Anderson",
+            "age": "5/9/1993 (28)",
+            "number": "#11",
+            "height": "6' 3\", 190 lbs",
+            "team": "Panthers"
+        },
+        {
+            "name": "Rashard Higgins",
+            "age": "10/7/1994 (27)",
+            "number": "WR",
+            "height": "6' 1\", 198 lbs",
+            "team": "Panthers"
+        },
+        {
+            "name": "Tommy Tremble",
+            "age": "6/2/2000 (21)",
+            "number": "#82",
+            "height": "6' 4\", 250 lbs",
+            "team": "Panthers"
+        },
+        {
+            "name": "Jameis Winston",
+            "age": "1/6/1994 (28)",
+            "number": "#2",
+            "height": "6' 4\", 231 lbs",
+            "team": "Saints"
+        },
+        {
+            "name": "Alvin Kamara",
+            "age": "7/25/1995 (26)",
+            "number": "#41",
+            "height": "5' 10\", 215 lbs",
+            "team": "Saints"
+        },
+        {
+            "name": "Michael Thomas",
+            "age": "3/3/1993 (29)",
+            "number": "#13",
+            "height": "6' 3\", 212 lbs",
+            "team": "Saints"
+        },
+        {
+            "name": "Marquez Callaway",
+            "age": "3/27/1998 (24)",
+            "number": "#1",
+            "height": "6' 2\", 204 lbs",
+            "team": "Saints"
+        },
+        {
+            "name": "Tre'Quan Smith",
+            "age": "1/7/1996 (26)",
+            "number": "#10",
+            "height": "6' 2\", 210 lbs",
+            "team": "Saints"
+        },
+        {
+            "name": "Adam Trautman",
+            "age": "2/5/1997 (25)",
+            "number": "#82",
+            "height": "6' 5\", 253 lbs",
+            "team": "Saints"
+        },
+        {
+            "name": "Tom Brady",
+            "age": "8/3/1977 (44)",
+            "number": "#12",
+            "height": "6' 4\", 225 lbs",
+            "team": "Buccaneers"
+        },
+        {
+            "name": "Leonard Fournette",
+            "age": "1/18/1995 (27)",
+            "number": "#7",
+            "height": "6' 0\", 228 lbs",
+            "team": "Buccaneers"
+        },
+        {
+            "name": "Chris Godwin",
+            "age": "2/27/1996 (26)",
+            "number": "#14",
+            "height": "6' 1\", 208 lbs",
+            "team": "Buccaneers"
+        },
+        {
+            "name": "Mike Evans",
+            "age": "8/21/1993 (28)",
+            "number": "#13",
+            "height": "6' 5\", 231 lbs",
+            "team": "Buccaneers"
+        },
+        {
+            "name": "Russell Gage",
+            "age": "1/22/1996 (26)",
+            "number": "WR",
+            "height": "6' 0\", 184 lbs",
+            "team": "Buccaneers"
+        },
+        {
+            "name": "Cameron Brate",
+            "age": "7/3/1991 (30)",
+            "number": "#84",
+            "height": "6' 5\", 245 lbs",
+            "team": "Buccaneers"
+        },
+        {
+            "name": "Kyler Murray",
+            "age": "8/7/1997 (24)",
+            "number": "#1",
+            "height": "5' 10\", 207 lbs",
+            "team": "Cardinals"
+        },
+        {
+            "name": "James Conner",
+            "age": "5/5/1995 (26)",
+            "number": "#6",
+            "height": "6' 1\", 233 lbs",
+            "team": "Cardinals"
+        },
+        {
+            "name": "DeAndre Hopkins",
+            "age": "6/6/1992 (29)",
+            "number": "#10",
+            "height": "6' 1\", 212 lbs",
+            "team": "Cardinals"
+        },
+        {
+            "name": "Rondale Moore",
+            "age": "6/9/2000 (21)",
+            "number": "#4",
+            "height": "5' 7\", 180 lbs",
+            "team": "Cardinals"
+        },
+        {
+            "name": "Antoine Wesley",
+            "age": "10/22/1997 (24)",
+            "number": "#85",
+            "height": "6' 4\", 206 lbs",
+            "team": "Cardinals"
+        },
+        {
+            "name": "Zach Ertz",
+            "age": "11/10/1990 (31)",
+            "number": "#86",
+            "height": "6' 5\", 250 lbs",
+            "team": "Cardinals"
+        },
+        {
+            "name": "Jimmy Garoppolo",
+            "age": "11/2/1991 (30)",
+            "number": "#10",
+            "height": "6' 2\", 225 lbs",
+            "team": "49ers"
+        },
+        {
+            "name": "Elijah Mitchell",
+            "age": "5/2/1998 (23)",
+            "number": "#25",
+            "height": "5' 10\", 200 lbs",
+            "team": "49ers"
+        },
+        {
+            "name": "Deebo Samuel",
+            "age": "1/15/1996 (26)",
+            "number": "#19",
+            "height": "6' 0\", 215 lbs",
+            "team": "49ers"
+        },
+        {
+            "name": "Brandon Aiyuk",
+            "age": "3/17/1998 (24)",
+            "number": "#11",
+            "height": "6' 0\", 200 lbs",
+            "team": "49ers"
+        },
+        {
+            "name": "Jauan Jennings",
+            "age": "7/10/1997 (24)",
+            "number": "#15",
+            "height": "6' 3\", 212 lbs",
+            "team": "49ers"
+        },
+        {
+            "name": "George Kittle",
+            "age": "10/9/1993 (28)",
+            "number": "#85",
+            "height": "6' 4\", 250 lbs",
+            "team": "49ers"
+        },
+        {
+            "name": "Drew Lock",
+            "age": "11/10/1996 (25)",
+            "number": "QB",
+            "height": "6' 4\", 228 lbs",
+            "team": "Seahawks"
+        },
+        {
+            "name": "Chris Carson",
+            "age": "9/16/1994 (27)",
+            "number": "#32",
+            "height": "5' 11\", 222 lbs",
+            "team": "Seahawks"
+        },
+        {
+            "name": "Tyler Lockett",
+            "age": "9/28/1992 (29)",
+            "number": "#16",
+            "height": "5' 10\", 182 lbs",
+            "team": "Seahawks"
+        },
+        {
+            "name": "DK Metcalf",
+            "age": "12/14/1997 (24)",
+            "number": "#14",
+            "height": "6' 4\", 235 lbs",
+            "team": "Seahawks"
+        },
+        {
+            "name": "Freddie Swain",
+            "age": "8/4/1998 (23)",
+            "number": "#18",
+            "height": "6' 0\", 199 lbs",
+            "team": "Seahawks"
+        },
+        {
+            "name": "Noah Fant",
+            "age": "11/20/1997 (24)",
+            "number": "TE",
+            "height": "6' 4\", 249 lbs",
+            "team": "Seahawks"
+        },
+        {
+            "name": "Matthew Stafford",
+            "age": "2/7/1988 (34)",
+            "number": "#9",
+            "height": "6' 3\", 220 lbs",
+            "team": "Rams"
+        },
+        {
+            "name": "Cam Akers",
+            "age": "6/22/1999 (22)",
+            "number": "#23",
+            "height": "5' 10\", 217 lbs",
+            "team": "Rams"
+        },
+        {
+            "name": "Cooper Kupp",
+            "age": "6/15/1993 (28)",
+            "number": "#10",
+            "height": "6' 2\", 208 lbs",
+            "team": "Rams"
+        },
+        {
+            "name": "Allen Robinson II",
+            "age": "8/24/1993 (28)",
+            "number": "#12",
+            "height": "6' 2\", 220 lbs",
+            "team": "Rams"
+        },
+        {
+            "name": "Van Jefferson",
+            "age": "7/26/1996 (25)",
+            "number": "#12",
+            "height": "6' 1\", 200 lbs",
+            "team": "Rams"
+        },
+        {
+            "name": "Tyler Higbee",
+            "age": "1/1/1993 (29)",
+            "number": "#89",
+            "height": "6' 6\", 255 lbs",
+            "team": "Rams"
+        }
+    ]
+}
