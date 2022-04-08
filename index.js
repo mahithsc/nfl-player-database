@@ -17,6 +17,7 @@ const teamsID = [
     'https://www.espn.com/nfl/team/depth/_/name/ten',
     'https://www.espn.com/nfl/team/depth/_/name/den',
     'https://www.espn.com/nfl/team/depth/_/name/kc',
+    'https://www.espn.com/nfl/team/depth/_/name/lv',
     'https://www.espn.com/nfl/team/depth/_/name/lac/los-angeles-chargers',
     'https://www.espn.com/nfl/team/depth/_/name/dal',
     'https://www.espn.com/nfl/team/depth/_/name/nyg',
